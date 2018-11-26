@@ -225,3 +225,92 @@
         border-left: 60px solid transparent;
         border-right: 60px solid transparent;
     }
+    /* .about_sec {
+        background-color: #310218;
+    } */
+    
+    .about_sec h1 {
+        display: inline-block;
+        font-size: 80px;
+        font-weight: 600;
+        color: #3ca392;
+        position: relative;
+        font-family: 'Covered By Your Grace', cursive;
+        letter-spacing: 3px;
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
+    
+    .about_sec h1::after {
+        border: 1px solid #3ca392;
+        bottom: -10px;
+        content: "";
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+        width: 70%;
+    }
+    
+    .abt_inner {
+        height: 400px;
+        width: 100%;
+        background-color: #3ca392;
+        border-radius: 40px;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    
+    .con_abt_inner_r h3 {
+        color: white;
+        font-size: 50px;
+        font-family: 'Covered By Your Grace', cursive;
+    }
+    
+    .img_abt_inner_l {
+        background: linear-gradient(rgb(60, 163, 146, 0.6), rgb(0, 0, 0, 0.5)), url("../img/home_bg.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    
+    .img_abt_inner_r {
+        background: linear-gradient(rgb(60, 163, 146, 0.6), rgb(0, 0, 0, 0.5)), url("../img/home_bg.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    
+    .con_abt_inner_r {
+        padding: 50px;
+    }
+    
+    .con_abt_inner_r p {
+        color: white;
+        font-size: 30px;
+        font-family: 'Handlee', cursive;
+        margin-left: 60px;
+    }
+    
+    .con_abt_inner_l {
+        padding: 50px;
+    }
+    
+    .con_abt_inner_l p {
+        color: white;
+        font-size: 30px;
+        font-family: 'Handlee', cursive;
+        margin-left: 60px;
+    }
+    
+    .con_abt_inner_l h3 {
+        color: white;
+        font-size: 50px;
+        font-family: 'Covered By Your Grace', cursive;
+    }
