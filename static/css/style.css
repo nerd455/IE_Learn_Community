@@ -1,6 +1,227 @@
-html,
-body {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
+    html,
+    body {
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .home_bg {
+        height: 100%;
+        background-color: #3ca392;
+    }
+    
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    .head h1 {
+        display: inline-block;
+        font-size: 80px;
+        font-weight: 600;
+        color: white;
+        position: relative;
+        font-family: 'Covered By Your Grace', cursive;
+        letter-spacing: 3px;
+    }
+    
+    .head h1::after {
+        border: 1px solid white;
+        bottom: -10px;
+        content: "";
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+        width: 70%;
+    }
+    
+    .forms {
+        background-color: transparent;
+    }
+    
+    .right_bg {
+        height: 100%;
+    }
+    
+    .inner_rt {
+        background: linear-gradient(rgb(60, 163, 146, 0.6), rgb(0, 0, 0, 0.5)), url("../img/home_bg.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .form_cus h3 {
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        position: relative;
+        font-family: 'Covered By Your Grace', cursive;
+        letter-spacing: 5px;
+        margin-bottom: 25px;
+    }
+    
+    .form_cus input {
+        border: none;
+        border-bottom: 1px solid white;
+        padding: 1px 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Handlee', cursive;
+        font-size: 20px;
+        width: 300px;
+    }
+    
+    .button_go {
+        padding: 0px 30px;
+        background-color: white;
+        border-radius: 30px;
+        font-size: 25px;
+        font-family: 'Covered By Your Grace', cursive;
+        border: 1px solid white;
+        color: #3ca392;
+        transition: all 0.4s;
+    }
+    
+    .button_go:hover,
+    .button_go:focus,
+    .button_go:active {
+        cursor: pointer;
+        color: white;
+        border: 1px solid white;
+        outline: none;
+        background-color: transparent;
+    }
+    
+     ::placeholder {
+        color: white;
+    }
+    
+    .form_cus input:focus,
+    .form_cus input:active,
+    .form_cus input:hover {
+        outline: none;
+    }
+    
+    .form_cus h3::after {
+        border: 1px solid white;
+        bottom: -10px;
+        content: "";
+        left: 0;
+        position: absolute;
+        width: 50%;
+    }
+    
+    .password_holder {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .eyeBtn {
+        position: absolute;
+        top: 0;
+        right: 5px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .btn_1 {
+        padding: 3px 10px;
+        background-color: white;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: 'Covered By Your Grace', cursive;
+        border: 1px solid white;
+        color: #3ca392;
+        transition: all 0.4s;
+        margin-bottom: 0px;
+        width: 80px;
+        margin-bottom: 10px
+    }
+    
+    .btn_1:hover,
+    .btn_1:focus,
+    .btn_1:active {
+        cursor: pointer;
+        color: white;
+        border: 1px solid white;
+        outline: none;
+        background-color: transparent;
+    }
+    
+    .btn_2 {
+        padding: 3px 10px;
+        background-color: transparent;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: 'Covered By Your Grace', cursive;
+        border: 1px solid white;
+        color: white;
+        transition: all 0.4s;
+        margin-bottom: 0px;
+        width: 80px;
+        margin-bottom: 10px
+    }
+    
+    .btn_2:hover,
+    .btn_2:focus,
+    .btn_2:active {
+        cursor: pointer;
+        color: #3ca392;
+        border: 1px solid white;
+        outline: none;
+        background-color: white;
+    }
+    
+    .form_cus h4 {
+        display: inline;
+        font-size: 18px;
+        color: white;
+        font-family: 'Covered By Your Grace', cursive;
+        letter-spacing: 3px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+    
+    .forms h4 {
+        font-size: 28px;
+        color: white;
+        font-family: 'Covered By Your Grace', cursive;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .bottom-arrow {
+        border-bottom: 5px solid #3ca392;
+    }
+    
+    .bottom-arrow:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 0;
+        height: 0;
+        border-top: 30px solid #3ca392;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+    }
