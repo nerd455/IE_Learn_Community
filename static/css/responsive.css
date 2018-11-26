@@ -1,0 +1,81 @@
+@media screen and (max-width: 1000px) {
+    .inner_rt {
+        height: 50%;
+    }
+    .home_bg {
+        height: 200%;
+    }
+    .login_cus {
+        height: 50%;
+    }
+    .head h1 {
+        font-size: 46px;
+        letter-spacing: 1px;
+    }
+    /* .form_cus h3 {
+        font-size: 20px;
+        letter-spacing: 3px
+    }
+    .form_cus input {
+        font-size: 18px;
+        width: 250px;
+    }
+    .button_go {
+        font-size: 20px;
+    }
+    .eyeBtn {
+        font-size: 18px;
+    }
+    .btn_1 {
+        font-size: 15px;
+        width: 70px;
+    }
+    .btn_2 {
+        font-size: 15px;
+        width: 70px;
+    }
+    .forms h4 {
+        font-size: 20px;
+    } */
+}
+
+@media screen and (max-width: 320px) {
+    .inner_rt {
+        height: 50%;
+    }
+    .home_bg {
+        height: 200%;
+    }
+    .login_cus {
+        height: 50%;
+    }
+    .head h1 {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    .form_cus h3 {
+        font-size: 20px;
+        letter-spacing: 3px
+    }
+    .form_cus input {
+        font-size: 18px;
+        width: 250px;
+    }
+    .button_go {
+        font-size: 20px;
+    }
+    .eyeBtn {
+        font-size: 18px;
+    }
+    .btn_1 {
+        font-size: 15px;
+        width: 70px;
+    }
+    .btn_2 {
+        font-size: 15px;
+        width: 70px;
+    }
+    .forms h4 {
+        font-size: 20px;
+    }
+}
