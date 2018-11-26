@@ -1,6 +1,10 @@
 @media screen and (max-width: 1000px) {
     .inner_rt {
         height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
     .home_bg {
         height: 200%;
@@ -98,6 +102,10 @@
     footer {
         height: 400px;
         padding-top: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
     .head_footer h1 {
         font-size: 60px;
@@ -111,6 +119,10 @@
 @media screen and (max-width: 320px) {
     .inner_rt {
         height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
     .home_bg {
         height: 200%;
@@ -173,5 +185,9 @@
     footer {
         height: 300px;
         padding-top: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
