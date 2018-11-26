@@ -225,6 +225,23 @@
         border-left: 60px solid transparent;
         border-right: 60px solid transparent;
     }
+    
+    .bottom-arrow-about {
+        border-bottom: 5px solid white;
+    }
+    
+    .bottom-arrow-about:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 0;
+        height: 0;
+        border-top: 30px solid white;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+    }
     /* .about_sec {
         background-color: #310218;
     } */
@@ -313,4 +330,49 @@
         color: white;
         font-size: 50px;
         font-family: 'Covered By Your Grace', cursive;
+    }
+    
+    footer {
+        background: linear-gradient(rgb(60, 163, 146, 0.6), rgb(0, 0, 0, 0.5)), url("../img/home_bg.jpg");
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 200px;
+    }
+    
+    .head_footer {
+        text-align: center;
+    }
+    
+    .head_footer h1 {
+        display: inline-block;
+        font-size: 80px;
+        font-weight: 600;
+        color: white;
+        position: relative;
+        font-family: 'Covered By Your Grace', cursive;
+        letter-spacing: 3px;
+    }
+    
+    .head_footer h1::after {
+        border: 1px solid white;
+        bottom: -5px;
+        content: "";
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+        width: 70%;
+    }
+    
+    .head_footer p {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 30px;
+        color: white;
+        position: relative;
+        font-family: 'Handlee', cursive;
+        letter-spacing: 3px;
     }
