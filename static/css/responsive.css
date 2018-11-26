@@ -37,6 +37,75 @@
     .forms h4 {
         font-size: 20px;
     } */
+    .about_sec h1 {
+        font-size: 46px;
+        letter-spacing: 1px;
+    }
+    /* .about_sec {} */
+    .abt_inner {
+        text-align: center;
+        height: 600px;
+    }
+    .img_abt_inner_l {
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .con_abt_inner_r {
+        background-color: #3ca392;
+        height: 50%;
+        border-radius: none;
+        padding: 50px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .con_abt_inner_r h3 {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .con_abt_inner_r p {
+        font-size: 22px;
+        margin-left: 0px;
+    }
+    .img_abt_inner_r {
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom-left-radius: 40px;
+        border-top-right-radius: 0px;
+    }
+    .con_abt_inner_l {
+        background-color: #3ca392;
+        height: 50%;
+        border-radius: none;
+        padding: 50px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .con_abt_inner_l h3 {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .con_abt_inner_l p {
+        font-size: 22px;
+        margin-left: 0px;
+    }
+    footer {
+        height: 400px;
+        padding-top: 150px;
+    }
+    .head_footer h1 {
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+    .head_footer p {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -77,5 +146,32 @@
     }
     .forms h4 {
         font-size: 20px;
+    }
+    .con_abt_inner_r {
+        background-color: #3ca392;
+        height: 50%;
+        border-radius: none;
+        padding: 20px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .con_abt_inner_l {
+        background-color: #3ca392;
+        height: 50%;
+        border-radius: none;
+        padding: 20px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .head_footer h1 {
+        font-size: 45px;
+        letter-spacing: 3px;
+    }
+    .head_footer p {
+        font-size: 20px;
+    }
+    footer {
+        height: 300px;
+        padding-top: 100px;
     }
 }

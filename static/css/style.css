@@ -282,6 +282,7 @@
         color: white;
         font-size: 50px;
         font-family: 'Covered By Your Grace', cursive;
+        margin-left: 20px;
     }
     
     .img_abt_inner_l {
@@ -312,7 +313,7 @@
         color: white;
         font-size: 30px;
         font-family: 'Handlee', cursive;
-        margin-left: 60px;
+        margin-left: 80px;
     }
     
     .con_abt_inner_l {
@@ -323,13 +324,14 @@
         color: white;
         font-size: 30px;
         font-family: 'Handlee', cursive;
-        margin-left: 60px;
+        margin-left: 80px;
     }
     
     .con_abt_inner_l h3 {
         color: white;
         font-size: 50px;
         font-family: 'Covered By Your Grace', cursive;
+        margin-left: 20px;
     }
     
     footer {
