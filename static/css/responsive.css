@@ -1,3 +1,81 @@
+/* FOR BIGGER DEVICES */
+
+@media screen and (min-width: 1280px) {
+    .head h1 {
+        font-size: 100px;
+        letter-spacing: 3px;
+    }
+    .form_cus h3 {
+        font-size: 40px;
+        letter-spacing: 3px
+    }
+    .form_cus input {
+        font-size: 28px;
+        width: 400px;
+    }
+    .button_go {
+        font-size: 40px;
+        padding: 0px 40px;
+    }
+    .eyeBtn {
+        font-size: 28px;
+    }
+    .btn_1 {
+        font-size: 28px;
+        width: 120px;
+    }
+    .btn_2 {
+        font-size: 28px;
+        width: 120px;
+    }
+    .forms h4 {
+        font-size: 40px;
+    }
+    .about_sec h1 {
+        font-size: 100px;
+        letter-spacing: 3px;
+    }
+    /* .about_sec {} */
+    .abt_inner {
+        text-align: left;
+        height: 400px;
+    }
+    .con_abt_inner_r h3 {
+        font-size: 50px;
+        margin-left: 30px;
+    }
+    .con_abt_inner_r p {
+        font-size: 35px;
+        margin-left: 80px;
+    }
+    .con_abt_inner_l h3 {
+        font-size: 50px;
+        margin-left: 30px;
+    }
+    .con_abt_inner_l p {
+        font-size: 35px;
+        margin-left: 80px;
+    }
+    footer {
+        height: 600px;
+        padding-top: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .head_footer h1 {
+        font-size: 100px;
+        letter-spacing: 3px;
+    }
+    .head_footer p {
+        font-size: 40px;
+    }
+}
+
+
+/* FOR TABLETS AND PHONES */
+
 @media screen and (max-width: 1000px) {
     .inner_rt {
         height: 50%;
@@ -115,6 +193,9 @@
         font-size: 20px;
     }
 }
+
+
+/* FOR SMALL PHONES */
 
 @media screen and (max-width: 320px) {
     .inner_rt {
