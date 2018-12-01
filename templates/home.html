@@ -35,31 +35,34 @@
 
             <div class="col-md-5 col-sm-12 login_cus">
                 <div class="forms center">
-                    <form class="form_cus">
+                    <form class="form_cus" onclick="show_pas('eye_signin', 'signin_pass');">
                         <h3>Sign in</h3><br>
                         <input type="text " placeholder="Username"><br>
                         <div class="password_holder">
-                            <input type="password " placeholder="Password"><br>
-                            <span class="eyeBtn"><i class="fa fa-eye"></i></span>
+                            <input id="signin_pass" type="password" placeholder="Password"><br>
+                            <span class="eyeBtn"><i onclick="show_pas_in();" id="eye_signin" class="fa fa-eye"></i></span>
                         </div>
-                        <button class="button_go">Go</button>
+                        <input id="signin_hid" style="display:none" type="text" value="signin" name="signin">
+                        <button class="button_go" type="submit">Go</button>
                     </form>
 
                     <h4 align="center">----OR----</h4>
 
-                    <form class="form_cus">
+                    <form class="form_cus" action="/dashboard" method="POST">
                         <h3>Sign up</h3><br>
                         <div align="center">
-                            <button class="btn_1">Student</button>
+                            <button id="student" type="button" onclick="stu_btn()" class="btn_1">Student</button>
                             <h4>OR</h4>
-                            <button class="btn_2">Mentor</button>
+                            <button id="mentor" type="button" onclick="mentor_btn()" class="btn_2">Mentor</button>
                         </div>
                         <input type="text " placeholder="Username"><br>
                         <div class="password_holder">
-                            <input type="password " placeholder="Password"><br>
-                            <span class="eyeBtn"><i class="fa fa-eye"></i></span>
+                            <input id="signup_pass" type="password" placeholder="Password"><br>
+                            <span class="eyeBtn"><i onclick="show_pas_up();" id="eye_signup" class="fa fa-eye"></i></span>
                         </div>
-                        <button class="button_go">Go</button>
+                        <input id="signup_hid" style="display:none" type="text" value="signup" name="signup">
+                        <input id="signup_val" style="display:none" type="text" value="student" name="signup_val">
+                        <button class="button_go" type="submit">Go</button>
                     </form>
                 </div>
             </div>
@@ -120,7 +123,6 @@
         </div>
     </footer>
     <!-- footer end -->
-
 
     <!-- js files -->
     <!-- bootstrap js files -->

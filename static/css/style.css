@@ -99,14 +99,16 @@
         transition: all 0.4s;
     }
     
-    .button_go:hover,
-    .button_go:focus,
-    .button_go:active {
+    .button_go:hover .button_go:active {
         cursor: pointer;
         color: white;
         border: 1px solid white;
         outline: none;
         background-color: transparent;
+    }
+    
+    .button_go:focus {
+        outline: none;
     }
     
      ::placeholder {
@@ -142,6 +144,15 @@
         font-size: 20px;
     }
     
+    .eyeBtn:hover,
+    .eyeBtn:active {
+        cursor: pointer;
+    }
+    
+    .eyeBtn:focus {
+        outline: none;
+    }
+    
     .btn_1 {
         padding: 3px 10px;
         background-color: white;
@@ -153,17 +164,21 @@
         transition: all 0.4s;
         margin-bottom: 0px;
         width: 80px;
+        outline: none;
         margin-bottom: 10px
     }
     
     .btn_1:hover,
-    .btn_1:focus,
     .btn_1:active {
         cursor: pointer;
         color: white;
         border: 1px solid white;
         outline: none;
         background-color: transparent;
+    }
+    
+    .btn_1:focus {
+        outline: none;
     }
     
     .btn_2 {
@@ -177,17 +192,21 @@
         transition: all 0.4s;
         margin-bottom: 0px;
         width: 80px;
+        outline: none;
         margin-bottom: 10px
     }
     
     .btn_2:hover,
-    .btn_2:focus,
     .btn_2:active {
         cursor: pointer;
         color: #3ca392;
         border: 1px solid white;
         outline: none;
         background-color: white;
+    }
+    
+    .btn_2:focus {
+        outline: none;
     }
     
     .form_cus h4 {
