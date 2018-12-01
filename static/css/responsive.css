@@ -1,6 +1,12 @@
 /* FOR BIGGER DEVICES */
 
 @media screen and (min-width: 1280px) {
+    #snackbar {
+        max-width: 500px;
+        margin-left: -250px;
+        padding: 8px;
+        font-size: 20px;
+    }
     .head h1 {
         font-size: 100px;
         letter-spacing: 3px;
@@ -77,6 +83,12 @@
 /* FOR TABLETS AND PHONES */
 
 @media screen and (max-width: 760px) {
+    #snackbar {
+        max-width: 360px;
+        margin-left: -180px;
+        padding: 8px;
+        font-size: 18px;
+    }
     .inner_rt {
         height: 50%;
         background-position: center;
@@ -198,6 +210,12 @@
 /* FOR SMALL PHONES */
 
 @media screen and (max-width: 320px) {
+    #snackbar {
+        max-width: 300px;
+        margin-left: -150px;
+        padding: 15px;
+        font-size: 15px;
+    }
     .inner_rt {
         height: 50%;
         background-position: center;

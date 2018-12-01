@@ -47,3 +47,24 @@ function show_pas_in() {
         i.setAttribute('type', 'password');
     }
 }
+
+// snackbar
+function snackbar_show() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+}
+
+function snackbar_hide() {
+    var x = document.getElementById("snackbar");
+    x.className = x.className.replace("show", "");
+}
+
+// event listeners for snackbar
+document.getElementById("signin_u").addEventListener("focus", snackbar_show);
+document.getElementById("signin_u").addEventListener("focusout", snackbar_hide);
+document.getElementById("signup_u").addEventListener("focus", snackbar_show);
+document.getElementById("signup_u").addEventListener("focusout", snackbar_hide);
+document.getElementById("signin_pass").addEventListener("focus", snackbar_show);
+document.getElementById("signin_pass").addEventListener("focusout", snackbar_hide);
+document.getElementById("signup_pass").addEventListener("focus", snackbar_show);
+document.getElementById("signup_pass").addEventListener("focusout", snackbar_hide);

@@ -19,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     <!-- awesome fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
@@ -35,15 +34,15 @@
 
             <div class="col-md-5 col-sm-12 login_cus">
                 <div class="forms center">
-                    <form class="form_cus" action="./dashboard" onclick="show_pas('eye_signin', 'signin_pass');">
+                    <form class="form_cus" action="./dashboard" method="POST">
                         <h3>Sign in</h3><br>
-                        <input type="text " placeholder="Username"><br>
+                        <input id="signin_u" type="text " placeholder="Username"><br>
                         <div class="password_holder">
                             <input id="signin_pass" type="password" placeholder="Password"><br>
                             <span class="eyeBtn"><i onclick="show_pas_in();" id="eye_signin" class="fa fa-eye"></i></span>
                         </div>
                         <input id="signin_hid" style="display:none" type="text" value="signin" name="signin">
-                        <button class="button_go" type="submit">Go</button>
+                        <button class="button_go">Go</button>
                     </form>
 
                     <h4 align="center">----OR----</h4>
@@ -55,14 +54,14 @@
                             <h4>OR</h4>
                             <button id="mentor" type="button" onclick="mentor_btn()" class="btn_2">Mentor</button>
                         </div>
-                        <input type="text " placeholder="Username"><br>
+                        <input id="signup_u" type="text " placeholder="Username"><br>
                         <div class="password_holder">
                             <input id="signup_pass" type="password" placeholder="Password"><br>
                             <span class="eyeBtn"><i onclick="show_pas_up();" id="eye_signup" class="fa fa-eye"></i></span>
                         </div>
                         <input id="signup_hid" style="display:none" type="text" value="signup" name="signup">
                         <input id="signup_val" style="display:none" type="text" value="student" name="signup_val">
-                        <button class="button_go" type="submit">Go</button>
+                        <button class="button_go">Go</button>
                     </form>
                 </div>
             </div>
@@ -123,6 +122,10 @@
         </div>
     </footer>
     <!-- footer end -->
+
+    <!-- snackbar -->
+    <div id="snackbar">Some long testing msg text some message..</div>
+
 
     <!-- js files -->
     <!-- bootstrap js files -->
