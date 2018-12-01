@@ -76,7 +76,7 @@
 
 /* FOR TABLETS AND PHONES */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 760px) {
     .inner_rt {
         height: 50%;
         background-position: center;
